@@ -7,6 +7,7 @@ import { Heading } from "./components/Heading";
 import { Oscar } from "./components/Oscar";
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
+import { LoggedIn } from "./components/states/LOggedIn";
 
 function App() {
   const personName = {
@@ -63,6 +64,7 @@ function App() {
       </Oscar>
       <Button handleClick={handleClick}></Button>
       <Input handleChange={handleInputChange} />
+      <LoggedIn></LoggedIn>
     </div>
   );
 }
