@@ -8,6 +8,7 @@ import { Oscar } from "./components/Oscar";
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
 import { LoggedIn } from "./components/states/LOggedIn";
+import { User } from "./components/states/User";
 
 function App() {
   const personName = {
@@ -65,6 +66,7 @@ function App() {
       <Button handleClick={handleClick}></Button>
       <Input handleChange={handleInputChange} />
       <LoggedIn></LoggedIn>
+      <User />
     </div>
   );
 }
