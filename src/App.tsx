@@ -9,6 +9,7 @@ import { Button } from "./components/Button";
 import { Input } from "./components/Input";
 import { LoggedIn } from "./components/states/LOggedIn";
 import { User } from "./components/states/User";
+import Counter from "./components/states/Counter";
 
 function App() {
   const personName = {
@@ -67,6 +68,7 @@ function App() {
       <Input handleChange={handleInputChange} />
       <LoggedIn></LoggedIn>
       <User />
+      <Counter />
     </div>
   );
 }
